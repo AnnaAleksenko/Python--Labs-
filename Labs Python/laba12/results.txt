@@ -1,0 +1,989 @@
+GET
+Ответ сервера:200,OK
+Заголовки ответа: {'Server': 'GitHub.com', 'Date': 'Mon, 11 Dec 2023 19:42:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, max-age=60, s-maxage=60', 'Vary': 'Accept, Accept-Encoding, Accept, X-Requested-With', 'ETag': 'W/"4f825cc84e1c733059d46e76e6df9db557ae5254f9625dfe8e1b09499c449438"', 'X-GitHub-Media-Type': 'github.v3; format=json', 'x-github-api-version-selected': '2022-11-28', 'Access-Control-Expose-Headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset', 'Access-Control-Allow-Origin': '*', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Frame-Options': 'deny', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '0', 'Referrer-Policy': 'origin-when-cross-origin, strict-origin-when-cross-origin', 'Content-Security-Policy': "default-src 'none'", 'Content-Encoding': 'gzip', 'X-RateLimit-Limit': '60', 'X-RateLimit-Remaining': '58', 'X-RateLimit-Reset': '1702327266', 'X-RateLimit-Resource': 'core', 'X-RateLimit-Used': '2', 'Accept-Ranges': 'bytes', 'Content-Length': '510', 'X-GitHub-Request-Id': 'E631:2210B:486174:495CA8:6577660B'} + "
+"Содержимое ответа:{"current_user_url":"https://api.github.com/user","current_user_authorizations_html_url":"https://github.com/settings/connections/applications{/client_id}","authorizations_url":"https://api.github.com/authorizations","code_search_url":"https://api.github.com/search/code?q={query}{&page,per_page,sort,order}","commit_search_url":"https://api.github.com/search/commits?q={query}{&page,per_page,sort,order}","emails_url":"https://api.github.com/user/emails","emojis_url":"https://api.github.com/emojis","events_url":"https://api.github.com/events","feeds_url":"https://api.github.com/feeds","followers_url":"https://api.github.com/user/followers","following_url":"https://api.github.com/user/following{/target}","gists_url":"https://api.github.com/gists{/gist_id}","hub_url":"https://api.github.com/hub","issue_search_url":"https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}","issues_url":"https://api.github.com/issues","keys_url":"https://api.github.com/user/keys","label_search_url":"https://api.github.com/search/labels?q={query}&repository_id={repository_id}{&page,per_page}","notifications_url":"https://api.github.com/notifications","organization_url":"https://api.github.com/orgs/{org}","organization_repositories_url":"https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}","organization_teams_url":"https://api.github.com/orgs/{org}/teams","public_gists_url":"https://api.github.com/gists/public","rate_limit_url":"https://api.github.com/rate_limit","repository_url":"https://api.github.com/repos/{owner}/{repo}","repository_search_url":"https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}","current_user_repositories_url":"https://api.github.com/user/repos{?type,page,per_page,sort}","starred_url":"https://api.github.com/user/starred{/owner}{/repo}","starred_gists_url":"https://api.github.com/gists/starred","topic_search_url":"https://api.github.com/search/topics?q={query}{&page,per_page}","user_url":"https://api.github.com/users/{user}","user_organizations_url":"https://api.github.com/user/orgs","user_repositories_url":"https://api.github.com/users/{user}/repos{?type,page,per_page,sort}","user_search_url":"https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"} + "
+"
+POST
+Ответ сервера:200,OK
+Заголовки: {'Date': 'Mon, 11 Dec 2023 19:42:03 GMT', 'Content-Type': 'application/json', 'Content-Length': '479', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+Содержимое ответа: {'args': {}, 'data': '', 'files': {}, 'form': {'key': 'value'}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '9', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.31.0', 'X-Amzn-Trace-Id': 'Root=1-6577660b-4cba4ec9781f773f0135ca6b'}, 'json': None, 'origin': '178.68.37.138', 'url': 'https://httpbin.org/post'}
+OPTION
+Ответ сервера:200,OK
+Заголовки: {'Content-Type': 'text/html; charset=UTF-8', 'Content-Length': '17550', 'Connection': 'keep-alive', 'Date': 'Mon, 11 Dec 2023 19:42:04 GMT', 'Server': 'Apache', 'Link': '<https://pythonexamples.org/wp-json/>; rel="https://api.w.org/", <https://pythonexamples.org/wp-json/wp/v2/pages/1>; rel="alternate"; type="application/json", <https://pythonexamples.org/>; rel=shortlink', 'Vary': 'Accept-Encoding', 'Content-Encoding': 'gzip', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 fd454824c672a1a7cfcbbe959ab47058.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'HEL51-P3', 'X-Amz-Cf-Id': 'K4t2m9aZ8NEBAtvWsAPv9lhoKno60pA02oSm4EC3Whhec-7OfKyT0g=='}
+Содержимое ответа:<!doctype html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="python examples, python programs, python coding, python sample code, python basics, python gui, python tutorial, learn python" />
+<meta name="description" content="Python Examples covers Python Basics, String Operations, List Operations, Dictionaries, Files, Image Processing, Data Analytics and popular Python Modules." />
+<link href="https://pythonexamples.org/wp-content/uploads/2019/02/python-examples-190-150x150.png" rel="shortcut icon" type="image/x-icon" sizes="32x32" />
+<link href="https://pythonexamples.org/wp-content/uploads/2019/02/python-examples-190.png" rel="shortcut icon" type="image/x-icon" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://pythonexamples.org/wp-content/uploads/2019/02/python-examples-190.png" />
+
+<title>Python Examples</title> <style>
+html{scroll-behavior:smooth;line-height:1.15;-webkit-text-size-adjust:100%}h1{margin:0.67em 0}
+pre{font-family:monospace,monospace;font-size:1em}
+a{background-color:transparent}
+b,strong{font-weight:600}
+p strong,td strong,li strong{color:#333;font-family: Menlo,monaco,Consolas,Lucida Console,monospace;word-spacing:-2px}
+.dark p strong,.dark td strong,.dark li strong{color:#ddd}
+li a strong{color:inherit;font-family:inherit;}
+.entry-content strong.code{font-family: Menlo,monaco,Consolas,"Lucida Console",monospace !important;}
+code{font-family:monospace,monospace;font-size:1em}
+html{font-size:22px}
+body{margin:0;background-color:#fbfcfe;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight:400;font-size:1em;line-height:1.7;text-rendering:optimizeLegibility}
+.main-navigation,.site-title,h1,h2,h3,h4{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif}
+.main-navigation,.site-title,h1,h2,h3,h4{font-weight:400;letter-spacing:-0.02em;line-height:1.2;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+p{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+pre{font-size:0.88889em;font-family:"Courier 10 Pitch",Courier,monospace;line-height:1.8;overflow:auto}
+code{font-size:0.88889em;font-family:Menlo,monaco,Consolas,Lucida Console,monospace}a{text-decoration:none}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+a{color:#2a46ca}
+h1,h2,h3,h4{clear:both;margin:1rem 0}
+ul,ol{padding-left:1rem}
+ul{list-style:disc}
+ul ul{list-style-type:circle}
+ol{list-style:decimal}li{line-height:1.8}
+li > ul,li > ol{padding-left:2rem}
+img{height:auto;max-width:100%;position:relative}
+figure{margin:0;width:fit-content}
+table{margin:0 0 1rem;border-collapse:collapse;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif}
+table td,table th{padding:0.5em;border:1px solid #767676;font-size:0.8em;text-align:left}
+.screen-reader-text{display:none}
+.entry-content:before,.entry-content:after,.site-header:before,.site-header:after,.site-content:before,.site-content:after,.site-footer:before,.site-footer:after{content:"";display:table;table-layout:fixed}.entry-content:after,.site-header:after,.site-content:after,.site-footer:after{clear:both}#page{width:100%}.site-content{overflow:hidden;max-width:1440px;margin:auto;margin-top:52px}.page-template-page-challenge .site-content{max-width: 100%}
+.site-branding{color:#767676;position:relative;margin:auto;max-width:1440px}
+.site-title{display:inline;margin:auto;text-align:center;color:#111;line-height:50px;font-size:1.0em;font-weight:600}
+.site-title a{color:#444}
+.entry .entry-header{margin:auto;position:relative}
+.entry .entry-title{color:#000;font-weight:600;line-height:1.6em;font-size:1.8rem;hyphens:none;margin-bottom:0}
+article{margin:0 1rem;display:inline-block;max-width:800px;float:left;padding:1rem}
+.sidebox{position:fixed;padding:0 10px;min-width:300px;min-height:600px;margin:0 5px;display:inline-block;margin-top:5px;top:110px}
+#colophon .site-info{color:#fff;padding-left:100px;margin:auto;max-width:1440px}
+#colophon .site-info a{font-family:sans-serif;font-size:0.8em}
+.entry .entry-content > *{margin:0 0 16px;max-width:100%}
+.entry .entry-content>p, .entry .entry-content>ul, .entry .entry-content>ol, .entry .entry-content>table{font-size:18px;word-spacing:0px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;color:#25265e}
+.entry .entry-content>*>*:first-child{margin-top:0}
+.entry .entry-content>*>*:last-child{margin-bottom:0}
+.entry .entry-content .wp-block-image img{display:block;cursor:pointer;border-radius: 10px}
+.entry .entry-content .wp-block-table th,.entry .entry-content .wp-block-table td{border-color:#767676}
+.entry .entry-content .wp-block-code{border-radius:10px;border:2px solid #639cff88;margin-top:-10px}.entry .entry-content pre.output{border:0;background:#355f89;border-radius:0}
+.entry .entry-content pre.html{border:2px solid #ccc}
+.entry .entry-content pre.output *{color:#fff!important}
+.entry .entry-content pre.error{border:1px solid red;border-left:6px solid red}
+.entry .entry-content .wp-block-code code{font-size:1.125em}
+svg{transition:fill 120ms ease-in-out;fill:currentColor}
+.wp-caption img[class*="wp-image-"]{display:block;margin-left:auto;margin-right:auto}
+.wp-caption-text{color:#767676;font-size:0.71111em;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;line-height:1.6;margin:0;padding:0.5rem;text-align:center}
+footer.site-footer{clip-path:polygon(0 0,71% 0,72% 87%,0 97%);border:2px solid;border-image:linear-gradient(45deg,#6587ff66,#d367ff66) 10;padding-top:10px;margin-bottom:100px;margin-top:1rem}
+.site-info a{margin-right:20px;padding:0 5px}
+body{overflow-x:hidden}
+.wp-block-code{padding:.8em 1em;border:1px solid #e2e4e7;border-radius:4px}
+.wp-block-code,.wp-block-preformatted pre{font-family:Menlo,Consolas,monaco,monospace;font-size:14px;color:#23282d}
+#rs_ad{max-width:310px;margin-bottom:100px;}
+#lnav{float:left;display:inline-block;width:260px;font-size:0.7em;margin:0 0 0 10px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif}
+#lnav li:last-child a{border-bottom-color:#0000!important}
+#lnav ul{background:#f4f4f9;border:2px solid #5a5a5a;border-radius:5px;list-style-type:none;padding-left:0}
+#lnav ul li{transition: all 0.1s linear}
+#lnav li a{display:block;margin:5px 0;padding:2px 10px;color:#222;border-bottom:1px solid #EEE}
+#lnav ul li a:before{color:#008905;content:'☑';padding:0 5px 0 0;font-weight:600}
+.dark #lnav ul li a:before{color:#ff8500}
+#cnts{padding:15px 0;margin:0;font-size:0.95rem}
+#cnts p{margin:0;cursor:pointer;font-size:0.7em;font-weight:600;margin-left:1.8rem;color:#2a46ca}#cnts ul{display:none;list-style-type:decimal;list-style-position:inside;margin:0;margin-top:10px;clear:both}
+#cnts ul>li{line-height:2.0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-size:0.8em}
+#comments{display:none}
+.entry .entry-content h4{color:#333;font-weight:700;margin-top:0}
+.entry .entry-content h2,.entry .entry-content h3{margin-top:40px;background:-webkit-linear-gradient(left,#9500ff,#002aff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;padding-bottom:3px;font-size:1.3rem;border-top:1px solid #eee;padding-top:1rem}
+.entry .entry-content h3{margin-top:30px;word-spacing:0}
+#lnav ul>strong, #lnav li.strong{margin:0;border-bottom:1px solid #fbecec;display:block;padding:15px 25px 5px 10px;color:#dbff00;background:#5a5a5a}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}
+sup{top:-0.5em}
+a:hover,#lnav li a:hover,.row ul li a:hover,.site-title a:hover,div#top_menu_tutorials:hover{background:-webkit-linear-gradient(left,#8e00f3,#0024db);-webkit-background-clip:text;-webkit-text-fill-color:transparent;transition: all 0.2s}
+.entry .entry-content pre.output >*>*{color:#fff!important}
+#p_t li a{margin:5px 0;display:block;font-family:Verdana;font-size:0.8em;border-bottom:1px solid #ff7e67}
+#p_t li a:hover{text-decoration:none;color:#3e60ff;text-shadow:0 0 0 #333}
+#p_t ul{list-style:auto;display:block;padding:0 10px}
+#p_t li{margin:10px 0}
+#p_t h3{padding:20px 0 0 0}code[class*="language-"],pre[class*="language-"]{color:black;background:none;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens: none;-moz-hyphens:none;-ms-hyphens: none;hyphens:none;}
+pre[class*="language-"]{padding:1em;margin:.5em 0;overflow:auto}:not(pre) >code[class*="language-"],pre[class*="language-"]{background:#fff}:not(pre) > code[class*="language-"]{padding:1px 9px;border:1px solid #eee;border-radius:.3em;white-space:normal}
+.token.comment,.token.prolog,.token.doctype,.token.cdata{color:#707070;padding-left:0}
+.token.comment{color:#c24000;background:#F5f5f5;}
+.token.punctuation{color:#747474}.namespace{opacity:.7}.token.property,.token.tag,.token.boolean,.token.number,.token.constant,.token.symbol,.token.deleted{color:#007944}
+.token.selector,.token.attr-name,.token.string{color:#111}.token.char,.token.builtin,.token.inserted{color:#d50075}
+.token.operator,.token.entity,.token.url,.language-css.token.string,.style .token.string{color:#484183}
+.token.atrule,.token.attr-value,.token.keyword{color:#0043ff}
+.token.function,.token.class-name{color:#C40000}
+.token.regex,.token.important,.token.variable{color:#e90}
+.token.important,.token.bold{font-weight:bold}
+.token.italic{font-style:italic}
+.token.entity{cursor:help}ul.listboxes{padding:0}
+.listboxes li{list-style:none;margin:0 0 1em;padding:0.5em 1em;box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;font-size:0.7rem}
+.listboxes a{font-size: 0.9rem;display:block}
+p.note{border-left:4px solid #ff7e67;padding-left:1em}
+figcaption{text-align:center;font-size:0.7rem}
+figure.border img{border-radius:11px;box-shadow:0 0 5px #CCC}
+figure.border video{border-radius:1rem}
+.dark .entry .entry-content .wp-block-image img{background:#fff}
+figure.border1 img{border:1px solid #CCC}
+.breadcrumb{list-style:none;border:2px solid #fbecec;border-radius:20px;padding:1em;}
+#lnav .breadcrumb li{padding-bottom:0.3em}
+#lnav .breadcrumb li a{padding-left:0;padding-right:0;border-bottom:0;display:inline}
+.breadcrumb .colorgrad{background:-webkit-linear-gradient(left,#ffd600,#ff0000);-webkit-background-clip:text;-webkit-text-fill-color:transparent;padding-bottom:3px;font-size:10px}
+h3 span{font-size:2rem;font-weight:600}
+#np .titles span{width:50%;display:inline-block;font-size:16px;color:#444}
+.dark #np .titles span{color:#ccc}
+#np .titles .right{text-align:right}
+#np{border-top:1px solid #ddd;margin-top: 2rem;}
+.dark #np{border-color:#555}
+
+a.nextlink,a.nextlinktop{float:right;text-align:right}
+a.nextlinktop,a.prevlinktop,a.nextlink,a.prevlink{display:inline-block;color:#333;margin-bottom:0.7rem;border-radius:1rem;font-weight:600;background: linear-gradient(45deg,#ffe255,#86ddff);font-size: 16px;padding: 0.2rem 1rem;box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
+a.prevlinktop,a.prevlink{background:#EEE}
+a.nextlinktop:hover,a.prevlinktop:hover,a.nextlink:hover,a.prevlink:hover{background:linear-gradient(75deg,#ffe255,#5ed1ff);-webkit-text-fill-color:#000}
+#p_t{margin-top:3rem}
+p.note{border-left:4px solid #ff7e67;padding-left:1em}
+.entry a.runonline{border-radius:1rem;padding:5px 20px;background: linear-gradient(45deg,#ffe255,#86ddff);white-space:nowrap;color:#333;display:inline-block;margin-top:0;font-size:16px;width:fit-content;font-weight:600}
+.entry a.runonline:before{color:#222;content:'▶'}
+.entry a.runonline:hover{font-weight:600;color:#000;-webkit-text-fill-color:currentColor;background:linear-gradient(75deg,#ffe255,#5ed1ff)}
+.entry a.copycode{border-radius:1rem;padding:5px 20px;cursor:pointer;background:#77777715;white-space:nowrap;-webkit-text-fill-color:#333;display:inline-block;margin-top:0;font-size:16px;width:fit-content;margin-left:20px}
+.entry a.copycode:hover{background:#77777725}
+.dark .entry a.copycode:hover{background:#7776}
+.dark .entry a.copycode{-webkit-text-fill-color:#ccc;background:#7773}
+.copycode svg {height:16px;color:#555}
+.dark .copycode svg {color:#999}
+h2{font-weight:600}
+.site-header{background:#fff;position: fixed;width: 100%;margin:0;top:0;height:52px;box-shadow:0 0 5px #ccc;z-index: 99;}
+.row figure,.row ul{display:inline-block; padding:1rem 2rem 1rem 0}
+.entry-content>div.wp-block-group{border:1px solid #CCC;padding:0 2rem 0.5rem;padding-top:0;padding-bottom:0;margin:2rem 0}
+.entry-content>div.wp-block-group h2{margin-top:1rem;color:#000}
+.entry-content>div.wp-block-group p{font-family:Verdana;font-size:16px}
+.entry-content>div.wp-block-group figure{max-width:350px;padding-right:0}
+.entry-content div.row{display:flex;align-items:self-start}
+.row ul{list-style:none;margin-top:0;min-width:60%}
+.row ul.fullwidth{display:block;width:100%;-webkit-column-width: 150px;-moz-column-width: 150px;-o-column-width: 150px;-ms-column-width: 150px;column-width: 200px;}
+.entry-content>div.wp-block-group h2{font-weight:500}
+.entry-content>div.wp-block-group ul{list-style:none;padding-left:0}
+.row ul li,ul.tl li,.entry-content>div.wp-block-group ul li{margin:0 5px 10px}
+.row ul li a,ul.tl li a,.entry-content>div.wp-block-group ul li a{color:#1917bf}
+.row ul li a::before,ul.tl li a::before,.entry-content>div.wp-block-group ul li a::before{content:url("/resources/outlink.png");margin-right:10px}
+ul.tl {list-style:none}
+.row ul li a:hover::before{-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.entry-content>div.wp-block-group ul li{font-size:17px;color:#888}
+.entry-content>div.wp-block-group ul li a:hover,.entry-content>div.wp-block-group ul li a:hover::before{background: -webkit-linear-gradient(left,#8e00f3,#0024db);-webkit-background-clip: text;-webkit-text-fill-color: transparent}
+.thistutorial, .thistutorial b{margin-top: -5px!important;}
+p code .token.comment{color:#222}
+#related_cards{display:flex;flex-wrap:wrap;gap:1rem}
+#related_cards>div{flex:1 0 150px;font-size:0.7rem;background:rgba(44, 68, 120, 0.06);border:2px solid;border-image: linear-gradient(45deg,#ffe255,#eec2ff) 10;background-size:contain;background-repeat:no-repeat;background-position:bottom right}
+#related_cards h2{margin-bottom:30px;color:#555;font-size:28px}
+#related_cards>div span{font-size:12px;line-height:12px;color:#666;display:block;position:absolute;padding:10px 0 0 10px}
+.dark #related_cards>div span{color:#bbb}
+#related_cards>div a{font-weight:700;color:#555;display:block;cursor:pointer;min-height:100px;padding:30px 10px 20px}
+#menu-top-menu{display: inline-flex;}
+ul.main-menu{margin:auto;padding-left:17px;max-width:1440px}
+ul.main-menu>li{display:table-cell;font-size:16px;font-weight:500;padding-right:15px}
+ul.main-menu>li a{padding:0 5px;font-weight:500}
+.site-branding form{float:right;display:inline-block;margin:4px 0}
+.site-branding form input{height:44px;font-size:16px;color:#2a46ca;border:1px solid #DDD;border-top-left-radius: 0.5rem;border-bottom-left-radius: 0.5rem;padding: 0 0.5rem}
+.site-branding form button{border:none;height:44px;width:44px;border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem;background:#DDD;margin-left:-6px;font-size:1.0rem;vertical-align:bottom;cursor:pointer}
+.site-branding form button:hover{background:#76da76}
+#tutorials{position:fixed;background:#282A35;z-index:10;width:100%;text-align:center;padding:1rem 2rem;height:calc(100% - 52px);overflow:auto}
+#tutorials ul{list-style:none;padding-left:0;margin-top:0}
+#tutorials h3{font-weight:700;color:#f2ffa6}
+#tutorials li{padding:0}
+#tutorials li a{color:#eee;font-weight:500;display:block;border-bottom:1px solid #0000}
+#tutorials li a:hover{background: -webkit-linear-gradient(left,#cc83ff,#c1cbff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;border-bottom:1px solid #888}
+#tutorials>div{display:inline-grid;margin: 0 2rem 2rem;text-align:left}
+#tutorials_close {display:block;position:absolute;right:1rem;font-size:60px;float: right;width:80px;border-radius:100px;height:80px;font-weight:600;color:#222;text-align:center!important;line-height:80px;cursor:pointer;background:#ddd;margin:0!important}
+#tutorials_close:hover {color:#000}
+article p a:hover,article table a:hover,article li a:hover{border-bottom:1px solid #888}
+.site-branding>a,div#top_menu_tutorials{padding:0 0 0 1rem;color:#2a46ca;font-size:0.75rem;font-weight:600;cursor:pointer;display:inline-block;}
+article p a:after, article td a:after{content: url(/resources/outlink.png);padding: 0 4px 0 7px;opacity: 0.8;}
+#darkmode{display:inline-block;float:right;line-height:50px;cursor:pointer;margin-right:0.5rem}
+#darkmode svg{height:28px;fill:#222;background-color:#0000;padding:5px;margin-top:12px}
+.dark #darkmode svg{fill:#ddd}
+#darkmode svg:hover{box-shadow:0 0 4px 7px #8888;border-radius:1rem;}
+.site-search svg{height:16px}
+#lnavicon{display:none}
+#topnvp{height:55px;display:none}
+#opaq {position:fixed;height:52px;width:100%;top:0;background:#fff;z-index:3;max-width:1440px}
+.dark #opaq {background:#222}
+#progressbar{position:fixed;background:-webkit-linear-gradient(left,#ffffff,#7aafff66);height:52px;top:0;width:0%;z-index:4;max-width:1440px}
+.dark #progressbar{background: -webkit-linear-gradient(left,#000000,#006eff 90%);}
+.site-title img{float: left;margin:4px}
+#cnts_close{display:none}
+#cnts_open,#cnts_close{float:left;font-size:1.5rem;margin-top:-0.8rem;cursor: pointer;line-height: 1.8}
+#cnts_open:hover,#cnts_close:hover{text-shadow:0 0 8px #db9eff}
+.dark #cnts_open:hover,.dark #cnts_close:hover{text-shadow:0 0 8px #888}
+.hide{display:none}
+#img_modal {
+display: none;
+position: fixed;
+z-index: 20;
+left: 0;
+top: 52px;
+padding-top: 50px;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(255,255,255,0.95);
+}
+#img_modal_close {
+position: absolute;
+top: 0;
+right: 0;
+color: #333;
+font-family: monospace;
+font-size: 100px;
+transition: 0.3s;
+background: #EEE;
+width: 100px;
+height: 100px;
+text-align: center;
+line-height: 100px;
+border-radius: 100px;
+cursor: pointer;
+}
+#img_modal_1 {
+	display: block;
+	margin: auto;
+}
+#caption{text-align: center}
+.dark #caption{color: #eee}
+.dark #img_modal {	background: #000e}
+@media only screen and (min-width:1200px){article{width:calc(100% - 620px - 2em);margin:0 1.5em}}
+@media only screen and (max-width:1200px){article{width:calc(100% - 350px);margin:0 20px;float:left}#sidebox{display:none}}
+@media only screen and (max-width:1000px){
+	#menu-top-menu{display:none}
+	}
+@media only screen and (max-width:800px){
+	#opaq ,#progressbar{display: none}
+    #lnav{display:none;width:calc(100% - 20px)}
+    article{width: calc(100% - 40px);}
+    .site-header{position:inherit;height:120px}
+    #menu-top-menu{margin-top: 0;}
+    .entry .entry-header{margin:1rem 0}
+    .entry-content div.row figure{display:none}
+    .breadcrumb{display:none}
+    #top_menu_tutorials{display:none}
+    #lnavicon{display: block;
+    position: fixed;
+    left: 5px;
+    top: 50px;
+    width: 50px;
+    height: 45px;
+    line-height: 50px;
+    z-index: 10;
+    background: #CCC;
+    cursor: pointer;
+    border-radius: 0.5rem;}
+    .page-template-page-corner #lnavicon {display:none}
+    footer.site-footer{clip-path: none}
+    #colophon .site-info{padding-left: 0}
+    .entry-content>div.wp-block-group p.outside{display:none}
+    .entry-content>div.wp-block-group>div{width:100%!important}
+    #lnav li.collapsed,#lnav li.expanded{cursor: initial;}
+	li.collapsed::after,li.expanded::after{content:""!important}
+	li.hide{display:initial}
+}
+@media only screen and (max-width:400px){
+	#site-title-text{display: none}
+}
+@media only screen and (max-width:500px){
+    .site-branding form input{width: 150px;}
+    .site-branding form{min-width: 150px;}
+}
+@media only screen and (min-width:800px){
+    #lnav{display:inline-block!important;}
+}
+#lnav li.collapsed,#lnav li.expanded{cursor: pointer}
+.dark #lnav li.collapsed{border-bottom-color:#fbecec3b}
+#lnav li.expanded{font-weight:600;border-bottom:2px solid #ffcfcf;}
+#lnav li.collapsed:hover::after, #lnav li.expanded:hover::after{color:#fff;font-weight:900}
+.dark #lnav li.collapsed:hover::after,.dark #lnav li.expanded:hover::after{color:white}
+li.collapsed::after{content: '＋';float: right;font-size: 20px;line-height: 23px;margin-right: -20px;}
+li.expanded::after{content: '－';float: right;font-size: 20px;line-height: 23px;margin-right: -20px;}
+#lnavopen,#lnavclose{width: 50px;text-align: center;}
+#lnavclose{display: none;}
+h3 svg {padding:0 1rem;color: #444;}
+/* Dark mode */
+body.dark{color:#eee;background: #1d1d20;}
+.dark .site-title a {color: #ddd;}
+.dark .site-header, .dark ul.main-menu, .dark #lnav ul {background: #222;border-image: linear-gradient(45deg,#685e37,#4c3b4f) 10;}
+.dark .site-branding>a,.dark #lnav li a,.dark .breadcrumb strong,.dark .entry .entry-content>p,.dark .entry .entry-content>ul,.dark .entry .entry-content>ol,.dark .entry .entry-content>table {color: #ccc;}
+.dark #lnav ul {border:2px solid #fbecec3b}
+.dark #lnav li a {border-bottom: 1px solid #444;}
+.dark #lnav ul>strong {border-bottom: 2px solid #777;color: #ccc; }
+.dark #lnav .breadcrumb li a{border-bottom:0;}
+.dark .breadcrumb {border: 2px solid #666;}
+.dark a, .dark a:after,.dark ul.tl li a,.dark #cnts p,.dark div#top_menu_tutorials{color: #a0b1ff;}
+.dark .entry .entry-title {color: #eee;}
+.dark .entry .entry-content h2, .dark .entry .entry-content h3 {background: -webkit-linear-gradient(left,#edd4ff,#abb8ff);-webkit-background-clip: text;    border-color: #444;}
+.dark .entry .entry-content h4 {color:#56db00}
+.dark p strong{color:#ddd;background:none}
+.dark .site-branding form input{color: #baffd2;background: #333;}
+.dark p code,.dark li code,.dark td code{background: #333;padding: 0 0.5rem;border-radius: 0.25rem;color: #ccc;border-color: #555;}
+.dark .wp-block-code,.dark .wp-block-preformatted pre{color:#79bcff;background: #223;}
+.dark a:hover,.dark #lnav li a:hover,.dark .row ul li a:hover,.dark .site-title a:hover,.dark .entry-content>div.wp-block-group ul li a:hover,.dark .entry-content>div.wp-block-group ul li a:hover::before,.dark #related_cards>div a:hover,.dark div#top_menu_tutorials:hover{background: -webkit-linear-gradient(left,#d69dff,#8a9dff);-webkit-background-clip: text;}
+#lnav ul li a.thistutorial,.dark #lnav ul li a.thistutorial{border-bottom:5px solid #5a5a5a;border-top:3px solid #5a5a5a;background:#fff}
+#lnav ul li a.thistutorial:hover,.dark #lnav ul li a.thistutorial:hover{-webkit-text-fill-color:#000}
+.dark .entry .entry-content pre.output{background: #234;}
+.dark a.nextlinktop,.dark a.prevlinktop,.dark a.nextlink,.dark a.prevlink {color: #444;}
+.dark a.nextlinktop:hover,.dark a.prevlinktop:hover,.dark a.nextlink:hover,.dark a.prevlink:hover {color: #000;background: linear-gradient(75deg,#ffe255,#5ed1ff);}
+#np{padding-top:20px}
+#np .links .next{text-align:right}
+#np .links .previous span,#np .links .next span{font-size:14px;display:block;color:#666}
+.dark #np .links .previous span,.dark #np .links .next span{color:#aaa}
+.dark pre[class*="language-"],.dark .entry .entry-content .wp-block-code code{color:#ddd!important;}
+.dark .token.comment,.dark .token.prolog,.dark .token.doctype,.dark .token.cdata{color:#8a8a8a;padding-left:0}
+.dark .token.comment{color: #aca800;background: #323232;}
+.dark .token.punctuation{color:#999}.dark .namespace{opacity:.7}.dark .token.property,.dark .token.tag,.dark .token.boolean,.dark .token.number,.dark .token.constant,.dark .token.symbol,.dark .token.deleted{color:#00c0ce}
+.dark .token.operator, .dark .token.entity, .dark .token.url, .dark .language-css.token.string, .dark .style .token.string{color: #a99fff;}
+.dark .token.atrule,.dark .token.attr-value,.dark .token.keyword{color: #c488d6;}
+.dark .token.selector,.dark .token.attr-name,.dark .token.string {color: #5099ff;}
+.dark .token.function,.dark .token.class-name,.dark .token.char,.dark .token.builtin,.dark .token.inserted{color: #d9e9a0;}
+.dark #lnavicon {background: #555;}
+.dark .entry-content>div.wp-block-group {background-color: #1d1d20;border-color: #333;box-shadow: 6px 2px 16px 0 rgba(0, 0, 0, 0.48), -6px -2px 16px 0 rgba(0, 0, 0, 0.8);}
+.dark .row ul li a,.dark .entry-content>div.wp-block-group ul li a {color: #a0b1ff;background: none;box-shadow: none;}
+.dark .row ul li a::before,.dark ul.tl li a::before,.dark .entry-content>div.wp-block-group ul li a::before{content: url(/resources/outlink-light.png)}
+.dark h3 svg {color: #aaa;}
+.dark #related_cards h2{color:#aaa}
+.dark #related_cards>div a{color:#ddd;}
+.dark article p a:after,.dark article td a:after{content: url(/resources/outlink-light.png);}
+.dark p strong,.dark td strong,.dark li strong{color:#ddd}
+p.heading strong{font-family:sans-serif;font-size:16px}
+#copied_msg {
+	display: none;
+	position: fixed;
+    z-index: 99;
+    top: 75px;
+    background: #a0b90045;
+    color: #000;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 2rem;
+    left: calc(50% - 133px);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.dark #copied_msg{
+	color: #fff;
+}
+h2 em, h3 em{
+	font-style: normal;
+	border-bottom:1px solid;
+}
+.entry .entry-content .program .wp-block-code {border:0;border-radius:0;padding-top: 25px;
+    padding-bottom: 25px;}
+.program{    border: 2px solid #639cff88;padding-bottom:10px}
+.program .runonline {margin-left:1em}
+.program .heading{padding-top:5px;padding-left:1em;font-size:16px;border-bottom:1px solid #8884;margin-bottom:10px}
+.entry .entry-content .program .wp-block-code{border-bottom:1px solid #8884}
+.breadcrumb li strong{font-family:inherit}
+#lnav,#masthead,#tutorials,#topnvp,#cnts,#np,#related_cards,#sidebox,footer,#copied_msg,.runonline,.copycode{-webkit-user-select:none;-ms-user-select:none;user-select:none}
+#related_cards>div:nth-child(1){background-image:url("/images/small_rectangle_bg_1.png")}
+#related_cards>div:nth-child(2){background-image:url("/images/small_rectangle_bg_2.png")}
+#related_cards>div:nth-child(3){background-image:url("/images/small_rectangle_bg_3.png")}
+#related_cards>div:nth-child(4){background-image:url("/images/small_rectangle_bg_4.png")}
+#site-title-text{font-size: 0.65rem;
+    vertical-align: middle;
+    line-height: 1.1;
+    display: inline-block;
+    width: min-content;
+    text-align: left;}
+.entry .entry-content div h2, .entry .entry-content div h3 {border-top:0}
+ol{padding-left:1.5rem}
+</style>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144703907-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-144703907-1');
+</script>
+
+<script async type="text/javascript" src="//m.servedby-buysellads.com/monetization.custom.js"></script>
+
+<script type="text/javascript">
+		(function(){
+			var bsa_optimize=document.createElement('script');
+			bsa_optimize.type='text/javascript';bsa_optimize.async=true;
+			bsa_optimize.src='https://cdn-s2s.buysellads.net/pub/pythonexamples.js?'+(new Date()-new Date()%600000);
+			(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa_optimize);
+		})();
+	</script>
+</head>
+
+<body class="home page-template page-template-page-corner page-template-page-corner-php page page-id-1 wp-embed-responsive singular image-filters-enabled">
+<script>
+	function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+}
+function getCookie(name) {
+  var cookieName = name + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var cookieArray = decodedCookie.split(';');
+  for (var i = 0; i < cookieArray.length; i++) {
+    var cookie = cookieArray[i];
+    while (cookie.charAt(0) === ' ') {
+      cookie = cookie.substring(1);
+    }
+    if (cookie.indexOf(cookieName) === 0) {
+      return cookie.substring(cookieName.length, cookie.length);
+    }
+  }
+  return null;
+}
+var theme = getCookie("theme");
+if (theme != null) {
+	if (theme == "dark") {
+		document.body.classList.add("dark");
+	} else {
+		document.body.classList.remove("dark");
+	}
+} else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
+	document.body.classList.add("dark");
+} else {
+	document.body.classList.remove("dark");
+}
+</script>
+<div id="lnavicon">
+  <div id="lnavopen">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+  </div>
+  <div id="lnavclose">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+  </div>
+</div>
+<div id="page" class="site">
+		<header id="masthead" class="site-header">
+			<div class="site-branding-container">
+				<div class="site-branding">
+					<p class="site-title">
+				        <a href="https://pythonexamples.org/" aria-label="Python Examples" rel="Python Examples"><img src="https://pythonexamples.org/images/python-examples-66.webp" alt="Python Examples" width="44" height="44" title="Python Examples"></a>
+				        <a id="site-title-text" href="https://pythonexamples.org/" aria-label="Python Examples" rel="Python Examples">Python Examples</a>
+				    </p>
+				    <div id="top_menu_tutorials" onclick="tutorialsToggle()">Tutorials
+				        <span class="expand">▼</span>
+				        <span class="close" style="display:none;">▲</span>
+				    </div>
+				    <div id="menu-top-menu">
+						<ul class="main-menu">
+							<li><a href="/exercises/">Exercises</a></li>
+							<li><a href="/challenges/">Challenges</a></li>
+							<li><a href="/run.php">Online Python Compiler</a></li>
+						</ul>
+					</div>
+					<form class="site-search" action="/">
+				      <input type="text" placeholder="Search.." name="s">
+				      <button type="submit" title="Submit" aria-label="Submit"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
+				    </form>
+				    <div id="darkmode" title="Switch Dark Mode" onclick="switchTheme()"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg></div>
+				</div><!-- .site-branding -->
+			</div><!-- .layout-wrap -->
+		</header><!-- #masthead -->
+		<div id="tutorials" style="display: none;">
+			<div id="tutorials_close" onclick="tutorialsToggle()">✕</div>
+			<div>
+				<h3>Basics</h3>
+				<ul>
+					<li><a href="/python-hello-world/">Hello World</a></li>
+					<li><a href="/python-comment/">Comments</a></li>
+					<li><a href="/python-datatypes/">Datatypes</a></li>
+					<li><a href="/python-console-operations/">Console Operations</a></li>
+					<li><a href="/python-conditional-statements/">Conditional Statements</a></li>
+					<li><a href="/python-loop-statements/">Loop Statements</a></li>
+					<li><a href="/python-enum/">Enum</a></li>
+					<li><a href="/python-operators/">Operators</a></li>
+					<li><a href="/python-string-operations/">Strings</a></li>
+					<li><a href="/python-functions/">Functions</a></li>
+					<li><a href="/python-builtin-functions/">Builtin Functions</a></li>
+                    <li><a href="/python-ranges/">Ranges</a></li>
+					<li><a href="/python-try-except/">Try-Except</a></li>
+					<li><a href="/python-type-conversion/">Type Conversion</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>Collections</h3>
+				<ul>
+					<li><a href="/python-list/">Lists</a></li>
+					<li><a href="/python-dictionary-example/">Dictionary</a></li>
+					<li><a href="/python-set/">Sets</a></li>
+					<li><a href="/python-tuple/">Tuples</a></li>
+				</ul>
+				<h3>Advanced</h3>
+				<ul>
+					<li><a href="/python-classes-and-objects-tutorials/">Classes and Objects</a></li>
+					<li><a href="/python-decorators/">Decorators</a></li>
+					<li><a href="/python-file-operations/">File Operations</a></li>
+					<li><a href="/python-recursion/">Recursion</a></li>
+					<li><a href="/python-global-variable/">Global Variables</a></li>
+					<li><a href="/python-regular-expression-regex-tutorial/">Regular Expressions</a></li>
+					<li><a href="/python-multithreading/">Multi-threading</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>Libraries</h3>
+				<ul style="column-count:2;">
+					<li><a href="/python-datetime/">datetime</a></li>
+					<li><a href="/python-flask-tutorial/">flask</a></li>
+					<li><a href="/python-json/">json</a></li>
+					<li><a href="/python-logging-examples/">logging</a></li>
+					<li><a href="/python-math/">math</a></li>
+					<li><a href="/python-mysql/">mysql</a></li>
+					<li><a href="/nltk/">nltk</a></li>
+					<li><a href="/numpy/">numpy</a></li>
+					<li><a href="/python-opencv/">opencv</a></li>
+					<li><a href="/pandas-examples/">pandas</a></li>
+					<li><a href="/python-phonenumbers/">phonenumbers</a></li>
+					<li><a href="/python-pickle-tutorial/">pickle</a></li>
+					<li><a href="/python-pillow/">pillow</a></li>
+					<li><a href="/python-pymongo/">pymongo</a></li>
+					<li><a href="/python-random-module-examples/">random</a></li>
+					<li><a href="/python-requests/">requests</a></li>
+					<li><a href="/selenium/">selenium</a></li>
+					<li><a href="/python-sqlite3-tutorial/">sqlite3</a></li>
+					<li><a href="/python-tkinter/">tkinter</a></li>
+				</ul>
+			</div>
+		</div>
+	<div id="content" class="site-content">
+
+<style>
+.sidebox{display:none}
+.row figure,.row ul{display:inline-block; padding:1rem 2rem 1rem 0}
+article{width:calc(100% - 2rem);max-width:1000px;margin:0 1rem;}
+#main{max-width:1000px;margin:auto;}
+.entry .entry-content .wp-block-image img{box-shadow:none}
+.entry-content div.row{display:flex;align-items:self-start}
+@media only screen and (max-width:768px){.entry-content div.row figure{display:none}}
+.row ul{list-style:none;margin-top:0;min-width:60%}
+.row ul.fullwidth{display:block;width:100%;
+	-webkit-column-width: 150px;
+    -moz-column-width: 150px;
+    -o-column-width: 150px;
+    -ms-column-width: 150px;
+    column-width: 200px;}
+.row ul li{margin:0 5px 10px}
+footer.site-footer{
+	clip-path: none;
+	border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+#colophon .site-info {
+	padding-left: 0;
+}
+</style>
+
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main">			
+			
+<article id="post-1" class="post-1 page type-page status-publish hentry entry">
+	<header class="entry-header">
+		
+<h1 class="entry-title">Python Examples</h1>
+	</header>
+	<div class="entry-content">
+		
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Python Programming Tutorials",
+      "description": "Introductory Python course laying out the basics. And then covering some intermediate level topics, and useful libraries.",
+      "provider": {
+        "@type": "Organization",
+        "name": "PythonExamples.org",
+        "sameAs": "https://pythonexamples.org/"
+      }
+    }
+    </script>
+<style>
+.columns{  column-width: 200px;}
+.entry .entry-content h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 4rem 0 1rem;
+    -webkit-text-fill-color:#333;
+}
+.dark .entry .entry-content h2 {
+  -webkit-text-fill-color:#ddd;
+}
+article figure img {
+    border: 10px solid #ddd;
+    border-radius: 1rem;
+}
+.dark article figure img {
+    border: 10px solid #666;
+}
+.big-button a {
+display: block;
+   width: fit-content;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: 2px solid rgb(24, 49, 83);
+    border-bottom: 6px solid rgb(24, 49, 83);
+    border-radius: 0.7rem;
+    font-weight: 500;
+    color: #000;
+    background: linear-gradient(45deg,#ffe255,#86ddff);
+}
+.big-button a:hover {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  -webkit-text-fill-color: #000;
+  background: linear-gradient(75deg,#ffe255,#5ed1ff);
+}
+article p.big-button a:after {  content: none;}
+</style>
+
+
+
+<p class="has-text-align-left">Welcome to PythonExamples.org. We provide three different paths to learn Python programming easily at your own pace that matches with your learning style. They are Tutorials, Exercises, and Challenges.</p>
+
+
+
+<h2>1. Tutorials</h2>
+
+
+
+<p class="has-text-align-left">This is a huge collection of Python tutorials with well detailed examples and programs. In these tutorials, we cover basics of Python programming, advanced concepts, and most regularly used Python modules.</p>
+
+
+
+<div class="wp-container-1 wp-block-group color1"><div class="wp-block-group__inner-container">
+<h3>Basics</h3>
+
+
+
+<p>The following tutorials cover the basic core concepts of Python language.</p>
+
+
+
+<ul class="columns"><li><a href="https://pythonexamples.org/python-hello-world/">Hello World</a></li><li><a href="https://pythonexamples.org/python-comment/">Comments</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-indentation/">Indentation</a></li><li><a href="https://pythonexamples.org/python-datatypes/">Datatypes</a></li><li><a href="https://pythonexamples.org/python-variables/" data-type="page" data-id="14685">Variables</a></li><li><a href="https://pythonexamples.org/python-console-operations/" data-type="page" data-id="4701">Console Operations</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-conditional-statements/">Conditional Statements</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-loop-statements/">Loop Statements</a></li><li><a href="https://pythonexamples.org/python-enum/">Enum</a></li><li><a href="https://pythonexamples.org/python-operators/" data-type="page" data-id="2958">Operators</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-string-operations/">Strings</a></li><li><a href="https://pythonexamples.org/python-functions/" data-type="page" data-id="4837">Functions</a></li><li><a href="https://pythonexamples.org/python-ranges/" data-type="page" data-id="10863">Ranges</a></li><li><a href="/python-try-except/">Try Except</a></li><li><a href="https://pythonexamples.org/python-keywords/">Python Keywords</a></li><li><a href="https://pythonexamples.org/python-general-programs/">Python programs</a></li></ul>
+</div></div>
+
+
+
+<div id="941345157">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("941345157", "300x250", "941345157");
+            });
+        }
+        catch (error) {}
+    </script>
+</div>
+
+
+
+<div class="wp-container-2 wp-block-group color3"><div class="wp-block-group__inner-container">
+<h3>Collections</h3>
+
+
+
+<p>The following tutorials cover the types of collections in Python language.</p>
+
+
+
+<ul class="columns"><li><a href="/python-list/">Lists</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-dictionary-example/">Dictionary</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-set/">Sets</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-tuple/">Tuples</a></li></ul>
+</div></div>
+
+
+
+<div id="673213939">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("673213939", "600x250", "673213939");
+            });
+        }
+        catch (error) {}
+    </script>
+</div>
+
+
+
+<div class="wp-container-3 wp-block-group color1"><div class="wp-block-group__inner-container">
+<h3>Advanced</h3>
+
+
+
+<p>Advanced tutorials cover file operations, regular expressions, multi-threading, etc.</p>
+
+
+
+<ul class="columns"><li><a href="https://pythonexamples.org/python-classes-and-objects-tutorials/">Classes and Objects</a></li><li><a href="https://pythonexamples.org/python-decorators/">Decorators</a></li><li><a href="https://pythonexamples.org/python-file-operations/">File Operations</a></li><li><a href="https://pythonexamples.org/python-recursion/">Recursion</a></li><li><a href="https://pythonexamples.org/python-global-variable/">Global Variables</a></li><li><a href="https://pythonexamples.org/python-regular-expression-regex-tutorial/">Regular Expressions</a></li><li><a href="https://pythonexamples.org/python-multithreading/">Multi-threading Tutorial</a></li></ul>
+</div></div>
+
+
+
+<div class="wp-container-4 wp-block-group color3"><div class="wp-block-group__inner-container">
+<h3>Python Modules</h3>
+
+
+
+<p>The following tutorials cover some of the most used packages or modules in Python programming.</p>
+
+
+
+<ul class="columns"><li><a href="https://pythonexamples.org/python-array/">Python array</a></li><li><a href="https://pythonexamples.org/python-dataclasses/" data-type="page" data-id="14652">Python dataclasses</a></li><li><a href="https://pythonexamples.org/python-datetime/">Python datetime</a></li><li><a href="https://pythonexamples.org/python-flask-tutorial/" data-type="page" data-id="5928">Python flask</a></li><li><a href="https://pythonexamples.org/python-json/">Python json</a></li><li><a href="https://pythonexamples.org/python-logging-examples/">Python logging</a></li><li><a href="https://pythonexamples.org/python-math/" data-type="page" data-id="4170">Python math</a></li><li><a href="https://pythonexamples.org/python-mysql/" data-type="page" data-id="6396">Python mysql</a></li><li><a href="/nltk/">Python nltk</a></li><li><a href="/numpy/">Python numpy</a></li><li><a href="https://pythonexamples.org/python-opencv/">Python opencv</a></li><li><a href="/pandas-examples/">Python pandas</a></li><li><a href="https://pythonexamples.org/python-phonenumbers/">Python phonenumbers</a></li><li><a class="rank-math-link" href="https://pythonexamples.org/python-pickle-tutorial/">Python pickle</a></li><li><a href="/python-pillow/">Python pillow</a></li><li><a href="https://pythonexamples.org/python-pydub-tutorial/" data-type="page" data-id="14107">Python pydub</a></li><li><a href="https://pythonexamples.org/python-pymongo/">Python pymongo</a></li><li><a href="https://pythonexamples.org/python-random-module-examples/">Python random</a></li><li><a href="https://pythonexamples.org/python-requests/">Python requests</a></li><li><a href="https://pythonexamples.org/selenium/" data-type="page" data-id="4528">Python selenium</a></li><li><a href="/python-sqlite3-tutorial/">Python sqlite3</a></li><li><a href="https://pythonexamples.org/python-tkinter/">Python tkinter</a></li></ul>
+</div></div>
+
+
+
+<h2>2. Exercises</h2>
+
+
+
+<p class="has-text-align-left">The exercises will help you test your skills on the syntax of Python programming basics. Each exercise has a description of what to do, and a program with input text fields. When you enter your input and click on the Submit button, it checks whether you answered correctly or not.</p>
+
+
+
+<figure class="wp-block-image size-full"><img width="782" height="506" src="https://pythonexamples.org/wp-content/uploads/2023/06/pythonexamples_exercises_1.png" alt="" class="wp-image-11441" srcset="https://pythonexamples.org/wp-content/uploads/2023/06/pythonexamples_exercises_1.png 782w, https://pythonexamples.org/wp-content/uploads/2023/06/pythonexamples_exercises_1-300x194.png 300w, https://pythonexamples.org/wp-content/uploads/2023/06/pythonexamples_exercises_1-768x497.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
+
+
+
+<p>If you are not aware of the answer, you may click on <strong>Show Answer</strong> button, and it will display the answer. And you may click on the <strong>Reset</strong> button to clear the answers, and try again yourself.</p>
+
+
+
+<p class="big-button"><a href="https://pythonexamples.org/exercises/" data-type="page" data-id="10587">Go to Exercises</a></p>
+
+
+
+<h2>3. Challenges</h2>
+
+
+
+<p class="has-text-align-left">The challenges will help you test your problem solving skills using Python programming. Each challenge has a use case with a requirement. The inputs and required outputs for the challenge are defined. A program editor with the boilerplate code is given. You have to complete the code, and Run Tests.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://pythonexamples.org/challenges/hello-world/"><img loading="lazy" width="964" height="467" src="https://pythonexamples.org/wp-content/uploads/2023/06/python-challenge-img.png" alt="" class="wp-image-11430" srcset="https://pythonexamples.org/wp-content/uploads/2023/06/python-challenge-img.png 964w, https://pythonexamples.org/wp-content/uploads/2023/06/python-challenge-img-300x145.png 300w, https://pythonexamples.org/wp-content/uploads/2023/06/python-challenge-img-768x372.png 768w" sizes="(max-width: 964px) 100vw, 964px" /></a></figure>
+
+
+
+<p>If you are not aware of the solution, you may click on <strong>Show Answer</strong> button floating on the bottom right corner of the program editor window. You can also reset the code to the boilerplate version, or Download the the program from the current program editor window.</p>
+
+
+
+<p class="big-button"><a href="https://pythonexamples.org/challenges/" data-type="page" data-id="10784">Go to Challenges</a></p>
+
+
+
+<h2>Python Online Compiler</h2>
+
+
+
+<p class="has-text-align-left">When you are going through the tutorials, under example programs, you will find a small button <strong>Run Code Online</strong> as shown in the following.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://pythonexamples.org/python-hello-world/" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="549" height="224" src="https://pythonexamples.org/wp-content/uploads/2023/06/python-online-compiler-1.png" alt="" class="wp-image-11448" srcset="https://pythonexamples.org/wp-content/uploads/2023/06/python-online-compiler-1.png 549w, https://pythonexamples.org/wp-content/uploads/2023/06/python-online-compiler-1-300x122.png 300w" sizes="(max-width: 549px) 100vw, 549px" /></a></figure>
+
+
+
+<p>When you click on that button, it takes you to a new window with the program in the code block above the button.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://pythonexamples.org/run.php"><img loading="lazy" width="894" height="258" src="https://pythonexamples.org/wp-content/uploads/2023/06/python-online-complier-2.png" alt="" class="wp-image-11449" srcset="https://pythonexamples.org/wp-content/uploads/2023/06/python-online-complier-2.png 894w, https://pythonexamples.org/wp-content/uploads/2023/06/python-online-complier-2-300x87.png 300w, https://pythonexamples.org/wp-content/uploads/2023/06/python-online-complier-2-768x222.png 768w" sizes="(max-width: 894px) 100vw, 894px" /></a></figure>
+
+
+
+<p>On the left side is the program editor window, where you can make changes to the code. When you are done with the code changes, click on the <strong>Run</strong> button. The buttons before the Run button are the <strong>Home</strong>, <strong>Download</strong>, and <strong>Reset</strong> button from left to right respectively.</p>
+
+
+
+<p>The output is displayed in the right side panel under <strong>Output</strong>.</p>
+
+
+
+<p class="big-button"><a href="https://pythonexamples.org/run.php">Go to Python Online Compiler</a></p>
+
+
+
+<h2>Other Tutorials</h2>
+
+
+
+<p>The following references cover tutorials for other scripting or programming languages.</p>
+
+
+
+<div class="wp-container-5 wp-block-group"><div class="wp-block-group__inner-container">
+<ul><li><a href="https://javascriptcode.org/" target="_blank" rel="noreferrer noopener">JavaScript Tutorial</a></li><li><a href="https://kotlinandroid.org/" target="_blank" rel="noopener">Kotlin Android Tutorials</a></li></ul>
+</div></div>
+
+
+
+<h3>External Resources</h3>
+
+
+
+<div class="wp-container-6 wp-block-group"><div class="wp-block-group__inner-container">
+<ul><li><a aria-label=" (opens in a new tab)" href="https://www.python.org/" target="_blank" rel="nofollow noreferrer noopener"> https://www.python.org/</a></li></ul>
+</div></div>
+	</div><!-- .entry-content -->
+</article><!-- #post-1 -->
+<div class="sidebox" id="sidebox">
+
+</div>		</main>
+	</section>
+
+
+</div>
+<footer id="colophon" class="site-footer">
+	<div class="site-info">
+		<a href="/page-sitemap.xml">Sitemap</a> <a href="/privacy-policy/">Privacy Policy</a> <a href="/terms-of-use/">Terms of Use</a> <a href="/contact-us/">Contact Us</a>
+	</div>
+</footer>
+</div>
+<script>
+function closeModal() {
+	document.getElementById("img_modal_1").src="";
+	document.getElementById("caption").innerHTML="";
+	document.getElementById("img_modal").style.display = 'none';
+}
+function displayModal(image) {
+	if(image.getAttribute("data-src")!=null) {
+		document.getElementById("img_modal_1").src = image.getAttribute("data-src");
+	} else {
+		document.getElementById("img_modal_1").src=image.src;
+	}
+	document.getElementById("caption").innerHTML=image.alt;
+	document.getElementById("img_modal").style.display = 'block';
+}
+if (document.querySelector('article .entry-content img')!=null) {
+	document.body.innerHTML += '<div id="img_modal"><div id="img_modal_close" onClick="closeModal()">&times;</div><img class="modal-content" id="img_modal_1"><div id="caption"></div></div>';
+	var images = document.querySelectorAll('.entry-content img');
+	var imagesArr = [...images];
+	for(var i=0; i<imagesArr.length; i++) {
+		var image = imagesArr[i];
+		image.setAttribute("onclick", "displayModal(this)");
+	}
+}
+function expandOrCollapse(li) {
+	if(li.classList.contains("collapsed")) {
+		li.classList.remove("collapsed");
+		li.classList.add("expanded");
+		while(!li.nextElementSibling.classList.contains("strong")) {
+			li.nextElementSibling.classList.remove("hide");
+			li = li.nextElementSibling;
+		}
+	} else if(li.classList.contains("expanded")) {
+		li.classList.add("collapsed");
+		li.classList.remove("expanded");
+		while(!li.nextElementSibling.classList.contains("strong")) {
+			li.nextElementSibling.classList.add("hide");
+			li = li.nextElementSibling;
+		}
+	}
+}
+(function() {
+	var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-([\w-]+)\b/i,t=0,n=_self.Prism={manual:_self.Prism&&_self.Prism.manual,disableWorkerMessageHandler:_self.Prism&&_self.Prism.disableWorkerMessageHandler,util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).slice(8,-1)},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e,t){var a=n.util.type(e);switch(t=t||{},a){case"Object":if(t[n.util.objId(e)])return t[n.util.objId(e)];var r={};t[n.util.objId(e)]=r;for(var l in e)e.hasOwnProperty(l)&&(r[l]=n.util.clone(e[l],t));return r;case"Array":if(t[n.util.objId(e)])return t[n.util.objId(e)];var r=[];return t[n.util.objId(e)]=r,e.forEach(function(e,a){r[a]=n.util.clone(e,t)}),r}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e],i={};for(var o in l)if(l.hasOwnProperty(o)){if(o==t)for(var s in a)a.hasOwnProperty(s)&&(i[s]=a[s]);a.hasOwnProperty(o)||(i[o]=l[o])}var u=r[e];return r[e]=i,n.languages.DFS(n.languages,function(t,n){n===u&&t!=e&&(this[t]=i)}),i},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){n.highlightAllUnder(document,e,t)},highlightAllUnder:function(e,t,a){var r={callback:a,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",r);for(var l,i=r.elements||e.querySelectorAll(r.selector),o=0;l=i[o++];)n.highlightElement(l,t===!0,r.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1].toLowerCase(),i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,t.parentNode&&(o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l));var s=t.textContent,u={element:t,language:l,grammar:i,code:s},g=function(e){u.highlightedCode=e,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,n.hooks.run("after-highlight",u),n.hooks.run("complete",u),r&&r.call(u.element)};if(n.hooks.run("before-sanity-check",u),!u.code)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),!u.grammar)return g(n.util.encode(u.code)),void 0;if(a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){g(e.data)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else g(n.highlight(u.code,u.grammar,u.language))},highlight:function(e,t,r){var l={code:e,grammar:t,language:r};return n.hooks.run("before-tokenize",l),l.tokens=n.tokenize(l.code,l.grammar),n.hooks.run("after-tokenize",l),a.stringify(n.util.encode(l.tokens),l.language)},matchGrammar:function(e,t,a,r,l,i,o){var s=n.Token;for(var u in a)if(a.hasOwnProperty(u)&&a[u]){if(u==o)return;var g=a[u];g="Array"===n.util.type(g)?g:[g];for(var c=0;c<g.length;++c){var f=g[c],h=f.inside,d=!!f.lookbehind,m=!!f.greedy,p=0,y=f.alias;if(m&&!f.pattern.global){var v=f.pattern.toString().match(/[imuy]*$/)[0];f.pattern=RegExp(f.pattern.source,v+"g")}f=f.pattern||f;for(var b=r,k=l;b<t.length;k+=t[b].length,++b){var w=t[b];if(t.length>e.length)return;if(!(w instanceof s)){if(m&&b!=t.length-1){f.lastIndex=k;var _=f.exec(e);if(!_)break;for(var j=_.index+(d?_[1].length:0),P=_.index+_[0].length,A=b,O=k,x=t.length;x>A&&(P>O||!t[A].type&&!t[A-1].greedy);++A)O+=t[A].length,j>=O&&(++b,k=O);if(t[b]instanceof s)continue;I=A-b,w=e.slice(k,O),_.index-=k}else{f.lastIndex=0;var _=f.exec(w),I=1}if(_){d&&(p=_[1]?_[1].length:0);var j=_.index+p,_=_[0].slice(p),P=j+_.length,N=w.slice(0,j),S=w.slice(P),E=[b,I];N&&(++b,k+=N.length,E.push(N));var C=new s(u,h?n.tokenize(_,h):_,y,_,m);if(E.push(C),S&&E.push(S),Array.prototype.splice.apply(t,E),1!=I&&n.matchGrammar(e,t,a,b,k,!0,u),i)break}else if(i)break}}}}},tokenize:function(e,t){var a=[e],r=t.rest;if(r){for(var l in r)t[l]=r[l];delete t.rest}return n.matchGrammar(e,a,t,0,0,!1),a},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.length=0|(a||"").length,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if(e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o=Object.keys(l.attributes).map(function(e){return e+'="'+(l.attributes[e]||"").replace(/"/g,"&quot;")+'"'}).join(" ");return"<"+l.tag+' class="'+l.classes.join(" ")+'"'+(o?" "+o:"")+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(n.disableWorkerMessageHandler||_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,n.manual||r.hasAttribute("data-manual")||("loading"!==document.readyState?window.requestAnimationFrame?window.requestAnimationFrame(n.highlightAll):window.setTimeout(n.highlightAll,16):document.addEventListener("DOMContentLoaded",n.highlightAll))),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+	Prism.languages.python={comment:{pattern:/(^|[^\\])#.*/,lookbehind:!0},"string-interpolation":{pattern:/(?:f|rf|fr)(?:("""|''')[\s\S]+?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,greedy:!0,inside:{interpolation:{pattern:/((?:^|[^{])(?:{{)*){(?!{)(?:[^{}]|{(?!{)(?:[^{}]|{(?!{)(?:[^{}])+})+})+}/,lookbehind:!0,inside:{"format-spec":{pattern:/(:)[^:(){}]+(?=}$)/,lookbehind:!0},"conversion-option":{pattern:/![sra](?=[:}]$)/,alias:"punctuation"},rest:null}},string:/[\s\S]+/}},"triple-quoted-string":{pattern:/(?:[rub]|rb|br)?("""|''')[\s\S]+?\1/i,greedy:!0,alias:"string"},string:{pattern:/(?:[rub]|rb|br)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,greedy:!0},"function":{pattern:/((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g,lookbehind:!0},"class-name":{pattern:/(\bclass\s+)\w+/i,lookbehind:!0},decorator:{pattern:/(^\s*)@\w+(?:\.\w+)*/i,lookbehind:!0,alias:["annotation","punctuation"],inside:{punctuation:/\./}},keyword:/\b(?:and|as|assert|async|await|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield)\b/,builtin:/\b(?:__import__|abs|aiter|all|any|anext|ascii|bin|bool|breakpoint|bytearray|bytes|callable|chr|classmethod|compile|complex|delattr|dict|dir|divmod|enumerate|eval|exec|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|isinstance|issubclass|iter|len|list|locals|map|max|memoryview|min|next|object|oct|open|ord|pow|print|property|range|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|vars|zip)\b/,"boolean":/\b(?:True|False|None)\b/,number:/(?:\b(?=\d)|\B(?=\.))(?:0[bo])?(?:(?:\d|0x[\da-f])[\da-f]*\.?\d*|\.\d+)(?:e[+-]?\d+)?j?\b/i,operator:/[-+%=]=?|!=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,punctuation:/[{}[\];(),.:]/},Prism.languages.python["string-interpolation"].inside.interpolation.inside.rest=Prism.languages.python,Prism.languages.py=Prism.languages.python;
+
+	var sidebox = document.getElementById("sidebox");
+	var article = null;
+	try {
+	  article = document.getElementsByTagName("article")[0];
+	}
+	catch(err) {}
+	var articleHeight = 0;
+	if(article != null) {
+		articleHeight = article.offsetHeight;
+	}
+	var windowHeight = window.innerHeight;
+	window.onscroll = function() {
+		var windyoffset = window.pageYOffset;
+		
+		if(sidebox!=null && windyoffset-50>0){	
+			sidebox.style.top="60px";
+			sidebox.style.bottom="unset";
+		} else {
+			sidebox.style.top=(110-windyoffset)+"px";
+			sidebox.style.bottom="unset";
+		}
+	};
+	document.getElementById('lnavicon').addEventListener("click", function(){
+		if (window.getComputedStyle(document.getElementById('lnav')).display === "none"){
+			document.getElementById('lnavclose').style.display = 'block'; 
+			document.getElementById('lnavopen').style.display = 'none'; 
+			document.getElementById('lnav').style.display = 'block'; 
+			window.scrollTo(0, 0);
+		}
+		else {
+			document.getElementById('lnavclose').style.display = 'none'; 
+			document.getElementById('lnavopen').style.display = 'block'; 
+			document.getElementById('lnav').style.display = 'none'; 
+		}
+	});
+})();
+function switchTheme() {
+	document.body.classList.toggle('dark');
+	if (document.body.classList.contains("dark")) {
+		setCookie("theme", "dark", 100);
+	} else {
+		setCookie("theme", "light", 100);
+	}
+}
+function tutorialsToggle() {
+	if (document.getElementById("tutorials").style.display == "none") {
+		document.getElementById("tutorials").style.display = "block";
+		document.querySelector('#top_menu_tutorials .expand').style.display = "none";
+		document.querySelector('#top_menu_tutorials .close').style.display = "initial";
+	} else {
+		document.getElementById("tutorials").style.display = "none";
+		document.querySelector('#top_menu_tutorials .expand').style.display = "initial";
+		document.querySelector('#top_menu_tutorials .close').style.display = "none";
+	}
+}
+function cntsToggle() {
+	if (document.getElementById("cnts_ul").style.display == "none") {
+		document.getElementById("cnts_ul").style.display = "block";
+		document.getElementById('cnts_open').style.display = "none";
+		document.getElementById('cnts_close').style.display = "initial";
+	} else {
+		document.getElementById("cnts_ul").style.display = "none";
+		document.getElementById('cnts_open').style.display = "initial";
+		document.getElementById('cnts_close').style.display = "none";
+	}
+}
+function copyCode(e) {
+	var preCode = e.previousElementSibling;
+	while (preCode.tagName !== "PRE") {
+		preCode = preCode.previousElementSibling;
+	}
+	navigator.clipboard.writeText(preCode.innerText);
+
+	var copied_msg_box = document.getElementById("copied_msg");
+	copied_msg_box.style.display = "block";
+
+	var viewportOffset = preCode.getBoundingClientRect();
+	var top = viewportOffset.top + preCode.clientHeight / 2 - copied_msg_box.clientHeight / 2;;
+	var left = viewportOffset.left + preCode.clientWidth / 2 - copied_msg_box.clientWidth / 2;
+	copied_msg_box.style.top = top + "px";
+	copied_msg_box.style.left = left + "px";
+
+	copied_msg_box.style.display = "block";
+	setTimeout(() => {
+	  	copied_msg_box.style.display = "none";
+	}, 1500);
+}
+/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+</script>
+<div id="copied_msg">Code copied to clipboard successfully 👍</div>
+</body>
+</html> + "
+"
